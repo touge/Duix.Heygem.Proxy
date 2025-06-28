@@ -1,0 +1,18 @@
+# config.yaml
+
+root_dir:     "D:/heygem_data/face2face"
+real_video_subdir: "temp"
+audio_subdir: "audio_tmp"
+char_subdir:  "characters"
+
+# 网络监听
+host: "0.0.0.0"
+port: 8080
+
+# 安全相关
+resource_access_key: "your-secret-key"
+auth_enabled: false
+
+# 内置服务地址
+internal_submit: "http://127.0.0.1:8383/easy/submit"
+internal_query:  "http://127.0.0.1:8383/easy/query"
